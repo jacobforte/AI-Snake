@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ae264b9ff1ca23241b87bdf4ffbbf59b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - snakePrefab: {fileID: 4866208417231171661, guid: bf58ee7f407b1084e84fd2a7f434534a,
+      type: 3}
+  - tailPrefab: {fileID: 7682347612272847835, guid: 041c80994b060604bb58dbb0122e961e,
+      type: 3}
+  - foodPrefab: {fileID: 8390803291612593621, guid: adde624e0c4fba342a1688a00516ff5e,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
