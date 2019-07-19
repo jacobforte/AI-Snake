@@ -42,7 +42,7 @@ public class NeuralNetwork
 		}
 	}
 
-	public int ComputeOutput(float[] input)
+	public int ComputeOutput(double[] input)
 	{
 		//Set the output for the first layer
 		for(int i = 0; i < 6; i++)

@@ -1,12 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
 	public GameObject snakePrefab;
 
 	private List<SnakeInstance> snakeInstances;
+	private int stoppedCount = 0;
+	public void IncrementStoppedCount()
+	{
+		stoppedCount += 1;
+		if (stoppedCount == 88)
+		{
+			Debug.Log("done");
+		}
+	}
 
 	void Start()
 	{
@@ -38,6 +48,14 @@ public class GameManager : MonoBehaviour
 		for (int i = 0; i < 88; i++)
 		{
 			snakeInstances[i].Begin();
+		}
+	}
+
+	public void Update()
+	{
+		if (Input.anyKey)
+		{
+			SceneManager.LoadScene("SampleScene");
 		}
 	}
 }
