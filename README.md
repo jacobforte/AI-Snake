@@ -1,3 +1,5 @@
 # AI Snake
  Uses NN to solve snake
-Currently, the snakes don't see or chase fruit, and there are not multiple generations.
+Currently, there is only a single generation.
+
+To play, download the folder Executables/Version 1 and run the program AI Snake.exe
