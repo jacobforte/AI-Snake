@@ -2,4 +2,4 @@
  Uses NN to solve snake
 Currently, there is only a single generation.
 
-To play, download the folder Executables/Version 1 and run the program AI Snake.exe
+To play, download the repository and run the file at Executables/Version 1/AI Snake.exe
