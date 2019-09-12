@@ -29,4 +29,4 @@ The code for the Neural Network is located at Assets/Scripts/Network
  
  It doesn't know what any of these values means, it only sees them as 0s or 1s.
  
- To reset the game, press space.
+ To reset the game, press space. You may need to reset a couple of times to generate a snake to actually chases food.
